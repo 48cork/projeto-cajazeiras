@@ -1,1 +1,285 @@
-cajazeiras_em_cena.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO "CAJAZEIRAS EM CENA"</title>
+    <!-- Carrega o Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Cor de fundo levemente mais escura para melhor contraste */
+            background-color: #eef2f7; 
+        }
+        /* Estilos personalizados para o destaque das missões */
+        .mission-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            border-left: 6px solid #10b981; /* Borda esquerda verde-esmeralda */
+        }
+        .mission-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container Principal Centrado -->
+    <div class="container mx-auto p-4 sm:p-8 lg:p-12 max-w-5xl">
+
+        <!-- Cabeçalho do Projeto -->
+        <header class="text-center mb-6 bg-white p-6 rounded-xl shadow-lg">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-700 tracking-tight mb-2">
+                PROJETO "CAJAZEIRAS EM CENA"
+            </h1>
+            <p class="text-lg text-gray-600">
+                <span class="font-semibold text-indigo-500">Disciplina:</span> Introdução à Sociologia
+                <span class="mx-2 text-gray-300">|</span>
+                <span class="font-semibold text-indigo-500">Público-Alvo:</span> Calouros
+                <span class="mx-2 text-gray-300">|</span>
+                <span class="font-semibold text-indigo-500">Professor:</span> Sérgio Rolemberg
+            </p>
+        </header>
+        
+        <!-- Novo Banner de Confirmação (Adicionado para visibilidade) -->
+        <div class="p-4 mb-8 text-sm text-blue-800 rounded-lg bg-blue-100 border border-blue-300" role="alert">
+            <span class="font-semibold">Página Carregada com Sucesso!</span> Role para baixo para ver todos os detalhes do projeto.
+        </div>
+
+        <!-- Seção 1: Nossa Missão -->
+        <section id="missao" class="mb-12 p-6 bg-white rounded-xl shadow-md">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-indigo-400 pb-2 flex items-center">
+                <!-- Ícone de Missão (SVG) -->
+                <svg class="w-6 h-6 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.007 12.007 0 002.944 12c.045 4.542 3.324 8.42 7.729 9.098v-2.818l-.597-.184A1.996 1.996 0 018 17.58V14a2 2 0 00-2-2v-1a2 2 0 002-2V7a2 2 0 00-2-2V4.5a.5.5 0 01.5-.5h4.5a.5.5 0 01.5.5V7a2 2 0 002 2V11a2 2 0 00-2 2v3.58a1.996 1.996 0 01-1.403 1.834l-.597.184V21.16A12.007 12.007 0 0021.056 12a11.955 11.955 0 01-3.04-8.618z"></path></svg>
+                1. NOSSA MISSÃO
+            </h2
+            >
+            <p class="text-gray-700 leading-relaxed">
+                Bem-vindos à universidade! Como futuros sociólogos, vocês serão desafiados a investigar criticamente a realidade de Cajazeiras, usando ferramentas teóricas e metodológicas da Sociologia. O objetivo é produzir um trabalho criativo e reflexivo que explore questões sociais, culturais, econômicas ou históricas da cidade. Vocês atuarão como pesquisadores iniciantes, conectando seus interesses pessoais (hobbies) a temas relevantes para a comunidade local.
+            </p>
+        </section>
+
+        <!-- Seção 2: Etapas da Avaliação -->
+        <section id="avaliacoes" class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-indigo-400 pb-2">
+                2. AS ETAPAS DA AVALIAÇÃO (<span class="text-indigo-600">100 PONTOS</span>)
+            </h2>
+
+            <!-- MISSÃO 1 -->
+            <div class="mission-card bg-white p-6 rounded-xl shadow-md mb-6">
+                <h3 class="text-xl font-bold text-green-700 mb-3 flex items-center">
+                    <span class="text-3xl mr-3 font-extrabold text-green-500">N1</span>
+                    MISSÃO 1 – PLANO DE PESQUISA (30 PONTOS)
+                </h3>
+                <p class="text-gray-600 mb-4">
+                    <span class="font-semibold text-gray-700">O que é?</span> Um plano de pesquisa escrito (4–5 páginas).
+                    <span class="font-semibold text-gray-700 block mt-2">Entrega:</span> Semana 7.
+                </p>
+
+                <div class="space-y-3 pl-2 border-l border-gray-200">
+                    <h4 class="font-semibold text-lg text-gray-700 mt-4">Detalhes do Plano:</h4>
+
+                    <div class="pl-4">
+                        <span class="block font-medium text-indigo-500">Tema escolhido:</span>
+                        <ul class="list-disc ml-6 text-sm text-gray-600 space-y-1 mt-1">
+                            <li>Festa da Roça vs. Grandes Eventos Culturais</li>
+                            <li>Êxodo dos Jovens: Para onde vão os talentos locais?</li>
+                            <li>Mulheres no Comércio Informal: Desafios e Contribuições</li>
+                            <li>Sertão Digital: Impactos das Redes Sociais na Juventude</li>
+                            <li>Seca e Seus Impactos Socioeconômicos</li>
+                            <li>Ou temas derivados dos hobbies dos alunos.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pl-4">
+                        <span class="block font-medium text-indigo-500">Conceitos sociológicos (Sugestões):</span>
+                        <ul class="list-disc ml-6 text-sm text-gray-600 space-y-1 mt-1">
+                            <li>Karl Marx: Luta de classes, alienação, indústria cultural.</li>
+                            <li>Émile Durkheim: Fato social, coesão social, anomia.</li>
+                            <li>Max Weber: Ação social, racionalização, ética protestante.</li>
+                            <li>Pierre Bourdieu: Capital cultural, habitus, campos de poder.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pl-4">
+                        <span class="block font-medium text-indigo-500">Método de pesquisa (Exemplos):</span>
+                        <ul class="list-disc ml-6 text-sm text-gray-600 space-y-1 mt-1">
+                            <li>Entrevistas semiestruturadas com moradores locais.</li>
+                            <li>Observação participante em eventos culturais ou espaços públicos.</li>
+                            <li>Análise documental (livros, jornais, redes sociais).</li>
+                        </ul>
+                    </div>
+
+                    <div class="pl-4">
+                        <span class="block font-medium text-indigo-500">Produto criativo proposto:</span>
+                        <p class="text-sm text-gray-600 mt-1">Descreva o formato do produto final (podcast, documentário, cordel, campanha digital, etc.) e como ele representará sua pesquisa.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Fim MISSÃO 1 -->
+
+            <!-- MISSÃO 2 -->
+            <div class="mission-card bg-white p-6 rounded-xl shadow-md mb-6 border-l-orange-500" style="border-left-color: #f97316;">
+                <h3 class="text-xl font-bold text-orange-700 mb-3 flex items-center">
+                    <span class="text-3xl mr-3 font-extrabold text-orange-500">N2</span>
+                    MISSÃO 2 – PRODUTO CRIATIVO (40 PONTOS)
+                </h3>
+                <p class="text-gray-600 mb-4">
+                    <span class="font-semibold text-gray-700">O que é?</span> Produza um produto criativo acadêmico, inovador e crítico, relacionado ao tema escolhido, que demonstre domínio dos conceitos sociológicos.
+                    <span class="font-semibold text-gray-700 block mt-2">Entrega:</span> Semana 12.
+                </p>
+
+                <h4 class="font-semibold text-lg text-gray-700 mt-4">Opções Sugeridas:</h4>
+                <ul class="list-disc ml-6 text-sm text-gray-600 space-y-2 mt-2">
+                    <li><span class="font-medium">Podcast acadêmico:</span> Discussão crítica com entrevistas e referências.</li>
+                    <li><span class="font-medium">Vídeo documentário:</span> Análise visual e narrativa com entrevistas e dados empíricos.</li>
+                    <li><span class="font-medium">Artigo acadêmico ilustrado:</span> Combinação de texto crítico e imagens/fotos.</li>
+                    <li><span class="font-medium">Campanha digital:</span> Mídias sociais ou materiais gráficos para conscientização.</li>
+                    <li><span class="font-medium">Cordel acadêmico:</span> Poemas populares que discutam questões sociológicas.</li>
+                </ul>
+
+                <h4 class="font-semibold text-lg text-gray-700 mt-6">Exemplos Específicos por HOBBY:</h4>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 ml-4 mt-2 text-sm text-gray-600">
+                    <li class="flex items-start">
+                        <span class="flex-shrink-0 text-orange-500 mr-2">•</span>
+                        <span><span class="font-medium">Tocar viola:</span> Podcast sobre a música de viola como expressão cultural e resistência.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="flex-shrink-0 text-orange-500 mr-2">•</span>
+                        <span><span class="font-medium">Fotografia:</span> Exposição virtual com análise crítica das fotos como registros da memória coletiva.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="flex-shrink-0 text-orange-500 mr-2">•</span>
+                        <span><span class="font-medium">Vaquejada:</span> Vídeo documentário sobre a modernização da vaquejada e seu impacto cultural.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="flex-shrink-0 text-orange-500 mr-2">•</span>
+                        <span><span class="font-medium">Doramas (séries asiáticos):</span> Vídeo comparativo sobre a influência da cultura coreana na juventude local.</span>
+                    </li>
+                    <!-- Adicione mais exemplos se necessário, mantendo o layout -->
+                </ul>
+            </div>
+            <!-- Fim MISSÃO 2 -->
+
+            <!-- MISSÃO 3 -->
+            <div class="mission-card bg-white p-6 rounded-xl shadow-md border-l-red-500" style="border-left-color: #ef4444;">
+                <h3 class="text-xl font-bold text-red-700 mb-3 flex items-center">
+                    <span class="text-3xl mr-3 font-extrabold text-red-500">N3</span>
+                    MISSÃO 3 – APRESENTAÇÃO E DEFESA (30 PONTOS)
+                </h3>
+                <p class="text-gray-600 mb-4">
+                    <span class="font-semibold text-gray-700">O que é?</span> Apresentação oral e Relatório Final.
+                    <span class="font-semibold text-gray-700 block mt-2">Data:</span> Semana 13.
+                </p>
+
+                <h4 class="font-semibold text-lg text-gray-700 mt-4">Apresentação Oral (20 minutos):</h4>
+                <ol class="list-decimal ml-6 text-sm text-gray-600 space-y-1 mt-2">
+                    <li>Contextualização teórica: Explicação do tema e dos conceitos sociológicos.</li>
+                    <li>Processo metodológico: Detalhamento do método de pesquisa e principais achados.</li>
+                    <li>Produto criativo: Apresentação do produto final e sua relevância.</li>
+                </ol>
+
+                <p class="mt-4 text-sm text-gray-600 italic">
+                    <span class="font-semibold text-red-500">Regra importante:</span> A professora sorteará quem apresenta cada parte. Todos devem estar preparados para falar sobre qualquer aspecto do trabalho.
+                </p>
+
+                <h4 class="font-semibold text-lg text-gray-700 mt-4">Relatório Final (8–10 páginas):</h4>
+                <p class="text-sm text-gray-600 mt-2">
+                    Faça uma conexão crítica entre os conceitos sociológicos e os dados obtidos durante a pesquisa de campo. Inclua citações e referências bibliográficas.
+                </p>
+            </div>
+            <!-- Fim MISSÃO 3 -->
+
+        </section>
+
+        <!-- Seção 3: Regras Gerais -->
+        <section id="regras" class="mb-12 p-6 bg-white rounded-xl shadow-md">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-indigo-400 pb-2 flex items-center">
+                3. REGRAS GERAIS
+            </h2>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><span class="font-semibold text-indigo-600">Grupos:</span> Máximo de 5 alunos.</li>
+                <li><span class="font-semibold text-indigo-600">Compromisso acadêmico:</span> Todos os membros devem contribuir igualmente.</li>
+                <li><span class="font-semibold text-indigo-600">Criatividade e rigor científico:</span> Trabalhos criativos, mas fundamentados em teorias sociológicas e métodos científicos.</li>
+            </ul>
+        </section>
+
+        <!-- Seção 4: Temas Sugeridos (Destaque Visual) -->
+        <section id="temas" class="mb-12 p-6 bg-indigo-50 rounded-xl shadow-inner">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-4 pb-2 flex items-center">
+                <!-- Ícone de Ideias (SVG) -->
+                <svg class="w-6 h-6 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M3.636 5.636l.707.707M12 16V9m-3 7h6a2 2 0 002-2V7a2 2 0 00-2-2H9a2 2 0 00-2 2v7a2 2 0 002 2z"></path></svg>
+                4. TEMAS SUGERIDOS
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Festa da Roça vs. Grandes Eventos Culturais:</p>
+                    <p class="text-sm text-gray-600">Como essas celebrações refletem mudanças nas tradições locais?</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Êxodo dos Jovens:</p>
+                    <p class="text-sm text-gray-600">Quais são os motivos e impactos do êxodo rural/urbano para Cajazeiras?</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Mulheres no Comércio Informal:</p>
+                    <p class="text-sm text-gray-600">Como as mulheres enfrentam desigualdades estruturais no mercado informal?</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Sertão Digital:</p>
+                    <p class="text-sm text-gray-600">Como as redes sociais influenciam as identidades juvenis e as dinâmicas sociais locais?</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Seca e Seus Impactos Socioeconômicos:</p>
+                    <p class="text-sm text-gray-600">Como a seca afeta as relações de poder e as desigualdades regionais?</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-indigo-200">
+                    <p class="font-semibold text-indigo-700">Temas alternativos (hobbies):</p>
+                    <p class="text-sm text-gray-600">Música de viola, Representações visuais (pintura/fotografia), Literatura regional, Influência das séries asiáticas, Esportes e sociabilidade, etc.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Dicas para Pesquisadores Iniciantes -->
+        <section id="dicas" class="mb-12 p-6 bg-white rounded-xl shadow-md">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-indigo-400 pb-2 flex items-center">
+                5. DICAS PARA PESQUISADORES INICIANTES
+            </h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="font-bold text-lg text-indigo-600">Use a Sociologia:</h3>
+                    <p class="text-gray-700">Conceitos de Marx, Durkheim, Weber, Bourdieu e outros ajudarão a decifrar a realidade.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-indigo-600">Pesquisa de Campo:</h3>
+                    <ul class="list-disc ml-6 text-gray-700 space-y-1">
+                        <li>Realizem entrevistas semiestruturadas com moradores locais.</li>
+                        <li>Observem eventos culturais ou espaços públicos.</li>
+                        <li>Registrem fotos/vídeos/documentos para análise posterior.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-indigo-600">Trabalho em Equipe:</h3>
+                    <p class="text-gray-700">Dividam tarefas de forma equilibrada e combinem ensaios para a apresentação final.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chamada Final -->
+        <footer class="text-center p-8 bg-indigo-700 text-white rounded-xl shadow-xl">
+            <h2 class="text-2xl font-bold mb-3">
+                QUEREMOS VER CAJAZEIRAS COM SEUS OLHOS CRÍTICOS E INOVADORES!
+            </h2>
+            <p class="text-indigo-200 leading-relaxed">
+                Essa é sua primeira grande missão como estudantes de Sociologia. Usem essa oportunidade para explorar, questionar e propor soluções para os desafios sociais de Cajazeiras. Estamos ansiosos para ver suas descobertas!
+                <span class="block mt-2 text-3xl">🔍🎤📹🎵</span>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
